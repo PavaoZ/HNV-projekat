@@ -1,0 +1,21 @@
+/*html*/
+
+html {
+    height: 100%;
+}
+
+/*Sadrzaj*/
+
+.sadrzaj {
+    border-radius: 25px 25px 0px 0px;
+    background-color: #BCC6CC;
+    width: 100%;
+    display: block;
+    overflow: auto;
+    height: 100%;
+}
+
+#josUIzradi {
+    font-size: 50px;
+    padding: 10%;
+}

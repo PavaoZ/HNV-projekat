@@ -1,0 +1,204 @@
+/*html*/
+
+html {
+    height: 100%;
+}
+
+/*Sadrzaj*/
+
+.sadrzaj {
+    border-radius: 25px 25px 0px 0px;
+    background-color: #BCC6CC;
+    width: 100%;
+    display: block;
+    overflow: auto;
+    height: 100%;
+    min-height:1000px;
+}
+
+/*Sredina*/
+
+.sredina {
+    margin-top: 5%;
+    height: 100%;
+    overflow: hidden;
+    width: 50%;
+    margin-right: 0px;
+    float: left;
+}
+
+.divTopS {
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    font-weight: bold;
+    color:rgba(255,255,255,.5);
+    background-color: #343a40!important;
+}
+
+#naslovIzjavaDana {
+    font-weight: bold;
+    padding-top: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tekstIzjavaDana {
+    font-size: 30px;
+    font-style: italic;
+    padding: 10%;
+    height: 35%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.slikaKultura {
+    padding: 0%;
+    height:100%;
+}
+
+#slikaZnacka {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 60%;
+}
+
+#pisac {
+    text-align: right;
+}
+
+/*Lijeva strana*/
+
+.lijevaStrana {
+    margin-top: 5%;
+    float: left;
+    width: 20%;
+    margin-left: 2.5%;
+    padding: 0px;
+}
+
+.divTopLS {
+    border-radius: 5px;
+    width: 90%;
+    height: 60px;
+    padding-top: 15px;
+    font-weight: bold;
+    color:rgba(255,255,255,.5);
+    background-color: #343a40!important;
+}
+
+.divVijestLS {
+    margin-top: 2%;
+    border-radius: 5px;
+    width: 98%;
+    height: 30%;
+    padding: 15%;
+    font-size: smaller;
+    overflow: hidden;
+}
+
+#logoVijesti1 {
+    display: block;
+    width: 80%;
+    height: 50%;
+}
+
+#logoVijesti2 {
+    display: block;
+    width: 80%;
+    height: 50%;
+}
+
+#logoVijesti3 {
+    display: block;
+    width: 80%;
+    height: 50%;
+}
+
+/*Desna strana*/
+
+.desnaStrana {
+    margin-top: 5%;
+    width: 20%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.divTopDS {
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    font-weight: bold;
+    color:rgba(255,255,255,.5);
+    background-color: #343a40!important;
+    text-align: center;
+}
+
+
+/*Za razlicite velicine ekrana*/
+  
+@media (min-width: 1050px) {
+    #logoVijesti1 {
+        height: 40%;
+    }
+    
+    #logoVijesti2 {
+        height: 40%;
+    }
+    
+    #logoVijesti3 {
+        height: 40%;
+    }
+
+    .divVijestLS {
+        font-size: medium;
+        height: 50%;
+    }
+
+    .divTopLS {
+        font-size: 25px;
+        padding: 10px;
+        padding-left: 30%;
+    }
+
+    .divTopS {
+        font-size: 25px;
+    }
+
+    .divTopDS {
+        font-size: 25px;
+    }
+
+    .ikonicaSlikeZaFacebookInstagram {
+        width: 20%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 850px) {
+    #slikaZnacka {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1020px) {
+    #slikaZnacka {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 400px;
+    }
+}

@@ -1,0 +1,15 @@
+/*Navigacioni meni*/
+
+#logoHNV {
+    width: 150px;
+    height: 80px;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+#barZaNavigaciju {
+    margin-bottom: 0.5%;
+    height: 100px;
+}
